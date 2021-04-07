@@ -1,0 +1,547 @@
+{
+    "content": "@24.2.10 维修区应满足维护管理室和值班等功能要求，各线路宜按专业系统合设，也可分设。@24.2.11 运营监控区宜设置参观演示室、参观接待室及培训演示室。参观演示室应与中央控制室相邻设置，也可与紧急事件指挥室合设。@24.3.2 中央控制室和设备区不宜设在高层建筑的顶层和地下。@24.3.5 建筑设计除应满足各系统设备的工艺要求外，还应满足结构、消防等专业的要求。@24.4.1 控制中心应有序敷设管线，并宜采用综合布线和综合管线敷设方式。\n",
+    "labelCategories": [
+        {
+            "id": 0,
+            "text": "建筑",
+            "color": "#eac0a2",
+            "borderColor": "#a38671"
+        },
+        {
+            "id": 1,
+            "text": "空间",
+            "color": "#619dff",
+            "borderColor": "#436db2"
+        },
+        {
+            "id": 2,
+            "text": "物理施工元素",
+            "color": "#9d61ff",
+            "borderColor": "#6d43b2"
+        },
+        {
+            "id": 3,
+            "text": "抽象施工元素",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 4,
+            "text": "文件工作成果",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 5,
+            "text": "物理工作成果",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 6,
+            "text": "进程工作成果",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 7,
+            "text": "行为(机器行为、人类行为)",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 8,
+            "text": "专有名词",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 9,
+            "text": "组织角色",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 10,
+            "text": "工具",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 11,
+            "text": "材质",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 12,
+            "text": "属性名",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 13,
+            "text": "效用(充当形容词)",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 14,
+            "text": "空间位置",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 15,
+            "text": "环境条件",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 16,
+            "text": "属性值",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 17,
+            "text": "文件名",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        }
+    ],
+    "labels": [
+        {
+            "id": 0,
+            "categoryId": 1,
+            "startIndex": 9,
+            "endIndex": 12
+        },
+        {
+            "id": 1,
+            "categoryId": 1,
+            "startIndex": 15,
+            "endIndex": 20
+        },
+        {
+            "id": 2,
+            "categoryId": 7,
+            "startIndex": 21,
+            "endIndex": 23
+        },
+        {
+            "id": 3,
+            "categoryId": 8,
+            "startIndex": 24,
+            "endIndex": 28
+        },
+        {
+            "id": 4,
+            "categoryId": 12,
+            "startIndex": 30,
+            "endIndex": 32
+        },
+        {
+            "id": 5,
+            "categoryId": 8,
+            "startIndex": 34,
+            "endIndex": 38
+        },
+        {
+            "id": 6,
+            "categoryId": 7,
+            "startIndex": 38,
+            "endIndex": 40
+        },
+        {
+            "id": 7,
+            "categoryId": 1,
+            "startIndex": 55,
+            "endIndex": 60
+        },
+        {
+            "id": 8,
+            "categoryId": 1,
+            "startIndex": 63,
+            "endIndex": 68
+        },
+        {
+            "id": 9,
+            "categoryId": 1,
+            "startIndex": 69,
+            "endIndex": 74
+        },
+        {
+            "id": 10,
+            "categoryId": 1,
+            "startIndex": 75,
+            "endIndex": 80
+        },
+        {
+            "id": 11,
+            "categoryId": 1,
+            "startIndex": 83,
+            "endIndex": 86
+        },
+        {
+            "id": 12,
+            "categoryId": 1,
+            "startIndex": 88,
+            "endIndex": 93
+        },
+        {
+            "id": 13,
+            "categoryId": 16,
+            "startIndex": 93,
+            "endIndex": 97
+        },
+        {
+            "id": 14,
+            "categoryId": 1,
+            "startIndex": 101,
+            "endIndex": 108
+        },
+        {
+            "id": 15,
+            "categoryId": 1,
+            "startIndex": 119,
+            "endIndex": 124
+        },
+        {
+            "id": 16,
+            "categoryId": 1,
+            "startIndex": 125,
+            "endIndex": 128
+        },
+        {
+            "id": 17,
+            "categoryId": 0,
+            "startIndex": 132,
+            "endIndex": 136
+        },
+        {
+            "id": 18,
+            "categoryId": 12,
+            "startIndex": 137,
+            "endIndex": 139
+        },
+        {
+            "id": 19,
+            "categoryId": 12,
+            "startIndex": 140,
+            "endIndex": 142
+        },
+        {
+            "id": 20,
+            "categoryId": 8,
+            "startIndex": 151,
+            "endIndex": 155
+        },
+        {
+            "id": 21,
+            "categoryId": 8,
+            "startIndex": 160,
+            "endIndex": 164
+        },
+        {
+            "id": 22,
+            "categoryId": 12,
+            "startIndex": 175,
+            "endIndex": 177
+        },
+        {
+            "id": 23,
+            "categoryId": 12,
+            "startIndex": 178,
+            "endIndex": 180
+        },
+        {
+            "id": 24,
+            "categoryId": 13,
+            "startIndex": 181,
+            "endIndex": 184
+        },
+        {
+            "id": 25,
+            "categoryId": 8,
+            "startIndex": 184,
+            "endIndex": 186
+        },
+        {
+            "id": 26,
+            "categoryId": 1,
+            "startIndex": 195,
+            "endIndex": 199
+        },
+        {
+            "id": 27,
+            "categoryId": 7,
+            "startIndex": 202,
+            "endIndex": 204
+        },
+        {
+            "id": 28,
+            "categoryId": 8,
+            "startIndex": 204,
+            "endIndex": 206
+        },
+        {
+            "id": 29,
+            "categoryId": 2,
+            "startIndex": 211,
+            "endIndex": 215
+        },
+        {
+            "id": 30,
+            "categoryId": 8,
+            "startIndex": 216,
+            "endIndex": 224
+        },
+        {
+            "id": 32,
+            "categoryId": 16,
+            "startIndex": 128,
+            "endIndex": 132
+        },
+        {
+            "id": 33,
+            "categoryId": 4,
+            "startIndex": 165,
+            "endIndex": 169
+        }
+    ],
+    "connectionCategories": [
+        {
+            "id": 0,
+            "text": "1.集合(X,Y)"
+        },
+        {
+            "id": 1,
+            "text": "2.修饰限定(X,Y)"
+        },
+        {
+            "id": 2,
+            "text": "3.领属(X,Y)"
+        },
+        {
+            "id": 3,
+            "text": "4.设置(X,Y)"
+        },
+        {
+            "id": 4,
+            "text": "5.满足(X,Y)"
+        },
+        {
+            "id": 5,
+            "text": "6.为(X,Y) "
+        },
+        {
+            "id": 6,
+            "text": "7.利用(X,Y)"
+        },
+        {
+            "id": 7,
+            "text": "8.具有(X,Y)"
+        },
+        {
+            "id": 8,
+            "text": "9.数值限定(X,Y)"
+        },
+        {
+            "id": 9,
+            "text": "10.位置(X,Y)"
+        },
+        {
+            "id": 10,
+            "text": "11.实体-起源Entity-Origin(X,Y)"
+        },
+        {
+            "id": 11,
+            "text": "12.实体-目的地Entity-Destination(X,Y)"
+        },
+        {
+            "id": 12,
+            "text": "13.其他"
+        },
+        {
+            "id": 13,
+            "text": "14.实体条件(X,Y)"
+        }
+    ],
+    "connections": [
+        {
+            "id": 0,
+            "categoryId": 2,
+            "fromId": 1,
+            "toId": 3
+        },
+        {
+            "id": 1,
+            "categoryId": 2,
+            "fromId": 2,
+            "toId": 3
+        },
+        {
+            "id": 2,
+            "categoryId": 4,
+            "fromId": 0,
+            "toId": 3
+        },
+        {
+            "id": 3,
+            "categoryId": 2,
+            "fromId": 0,
+            "toId": 4
+        },
+        {
+            "id": 4,
+            "categoryId": 10,
+            "fromId": 4,
+            "toId": 6
+        },
+        {
+            "id": 5,
+            "categoryId": 11,
+            "fromId": 6,
+            "toId": 5
+        },
+        {
+            "id": 6,
+            "categoryId": 3,
+            "fromId": 7,
+            "toId": 8
+        },
+        {
+            "id": 7,
+            "categoryId": 3,
+            "fromId": 7,
+            "toId": 9
+        },
+        {
+            "id": 8,
+            "categoryId": 3,
+            "fromId": 7,
+            "toId": 10
+        },
+        {
+            "id": 9,
+            "categoryId": 10,
+            "fromId": 11,
+            "toId": 13
+        },
+        {
+            "id": 10,
+            "categoryId": 11,
+            "fromId": 13,
+            "toId": 12
+        },
+        {
+            "id": 11,
+            "categoryId": 11,
+            "fromId": 13,
+            "toId": 14
+        },
+        {
+            "id": 12,
+            "categoryId": 10,
+            "fromId": 15,
+            "toId": 32
+        },
+        {
+            "id": 13,
+            "categoryId": 11,
+            "fromId": 32,
+            "toId": 17
+        },
+        {
+            "id": 14,
+            "categoryId": 2,
+            "fromId": 17,
+            "toId": 18
+        },
+        {
+            "id": 15,
+            "categoryId": 2,
+            "fromId": 17,
+            "toId": 19
+        },
+        {
+            "id": 16,
+            "categoryId": 10,
+            "fromId": 16,
+            "toId": 32
+        },
+        {
+            "id": 17,
+            "categoryId": 4,
+            "fromId": 20,
+            "toId": 21
+        },
+        {
+            "id": 18,
+            "categoryId": 2,
+            "fromId": 21,
+            "toId": 33
+        },
+        {
+            "id": 19,
+            "categoryId": 4,
+            "fromId": 20,
+            "toId": 22
+        },
+        {
+            "id": 20,
+            "categoryId": 4,
+            "fromId": 20,
+            "toId": 23
+        },
+        {
+            "id": 21,
+            "categoryId": 4,
+            "fromId": 20,
+            "toId": 24
+        },
+        {
+            "id": 22,
+            "categoryId": 1,
+            "fromId": 24,
+            "toId": 25
+        },
+        {
+            "id": 23,
+            "categoryId": 1,
+            "fromId": 23,
+            "toId": 25
+        },
+        {
+            "id": 24,
+            "categoryId": 1,
+            "fromId": 22,
+            "toId": 25
+        },
+        {
+            "id": 25,
+            "categoryId": 10,
+            "fromId": 26,
+            "toId": 27
+        },
+        {
+            "id": 26,
+            "categoryId": 11,
+            "fromId": 27,
+            "toId": 28
+        },
+        {
+            "id": 27,
+            "categoryId": 6,
+            "fromId": 26,
+            "toId": 29
+        },
+        {
+            "id": 28,
+            "categoryId": 6,
+            "fromId": 26,
+            "toId": 30
+        }
+    ]
+}

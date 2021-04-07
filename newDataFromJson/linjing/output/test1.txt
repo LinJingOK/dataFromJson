@@ -1,0 +1,12 @@
+{'f_node_name': '主备两路电源', 'f_node_label': '抽象施工元素', 'relation_name': '其他(X,Y)', 'l_node_name': '正线接触网', 'l_node_label': '物理施工元素'}
+{'f_node_name': '柔性架空接触网', 'f_node_label': '物理工作成果', 'relation_name': '其他(X,Y)', 'l_node_name': '刚性架空接触网', 'l_node_label': '物理工作成果'}
+{'f_node_name': '非带电金属体', 'f_node_label': '物理施工元素', 'relation_name': '其他(X,Y)', 'l_node_name': '接触网架空地线', 'l_node_label': '物理工作成果'}
+{'f_node_name': '接触网架空地线', 'f_node_label': '物理工作成果', 'relation_name': '其他(X,Y)', 'l_node_name': '牵引变电所接地装置', 'l_node_label': '物理施工元素'}
+{'f_node_name': '电力电缆', 'f_node_label': '物理施工元素', 'relation_name': '其他(X,Y)', 'l_node_name': '通信、信号电缆', 'l_node_label': '物理施工元素'}
+{'f_node_name': '直埋电缆', 'f_node_label': '物理施工元素', 'relation_name': '其他(X,Y)', 'l_node_name': '地铁隧道', 'l_node_label': '建筑'}
+{'f_node_name': '防灾广播', 'f_node_label': '抽象施工元素', 'relation_name': '其他(X,Y)', 'l_node_name': '行车广播', 'l_node_label': '抽象施工元素'}
+{'f_node_name': '公安无线通信引入系统', 'f_node_label': '抽象施工元素', 'relation_name': '其他(X,Y)', 'l_node_name': '地铁范围内', 'l_node_label': '空间'}
+{'f_node_name': '站台门监控系统', 'f_node_label': '物理工作成果', 'relation_name': '其他(X,Y)', 'l_node_name': '车站', 'l_node_label': '建筑'}
+{'f_node_name': '站台门', 'f_node_label': '物理工作成果', 'relation_name': '其他(X,Y)', 'l_node_name': '站台门', 'l_node_label': '物理工作成果'}
+{'f_node_name': '站台门', 'f_node_label': '物理工作成果', 'relation_name': '满足(X,Y)', 'l_node_name': '正常开关', 'l_node_label': '属性值'}
+{'f_node_name': '功率', 'f_node_label': '属性名', 'relation_name': '满足(X,Y)', 'l_node_name': '站台门', 'l_node_label': '物理工作成果'}

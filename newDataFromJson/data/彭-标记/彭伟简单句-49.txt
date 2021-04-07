@@ -1,0 +1,345 @@
+Source:15.1.6 一级负荷必须采用双电源双回线路供电。
+TotalSentence:15.1.6 <e1>一级负荷<e1>必须采用<e2>双电源双回线路<e2>供电。
+TotalSentence实体:
+e1:ec11,e2:ec6
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:15.1.8 二级负荷宜采用双电源单回线路专线供电。
+TotalSentence:15.1.8 <e1>二级负荷<e1>宜采用<e2>双电源单回线路<e2>专线供电。
+TotalSentence实体:
+e1:ec11,e2:ec5
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:15.1.9 三级负荷可采用单电源单回线路供电。当系统中只有一个电源工作时可切除三级负荷。
+TotalSentence:<e1>三级负荷<e1>可采用<e2>单电源单回线路<e2>供电。当系统中只有一个电源工作时可切除三级负荷。
+TotalSentence实体:
+e1:ec11,e2:ec6
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:15.1.12 主变电所、电源开闭所进线电源应至少有一个为专线电源。  
+TotalSentence:15.1.12 <e1>主变电所<e1>、<e2>电源开闭所<e2><e3>进线电源<e3>应至少有一个为<e4>专线电源<e4>。
+TotalSentence实体:
+e1:ec1,e2:ec1,e3:ec6,e4:ec6
+TotalSentence关系:
+rc8(e1,e2)
+
+Source:15.1.15 中压网络宜采用牵引动力照明混合网络形式。
+TotalSentence:15.1.15 <e1>中压网络<e1>宜采用<e2>牵引动力照明混合网络形式<e2>。
+TotalSentence实体:
+e1:ec8,e2:ec11
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:15.1.26 低压配电电压应采用220V/380V。
+TotalSentence:15.1.26 <e1>低压配电电压<e1>应采用<e2>220V/380V<e2>。
+TotalSentence实体:
+e1:ec11,e2:ec15
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:15.2.14 主变电所宜采用有载调压主变压器。
+TotalSentence:15.2.14 <e1>主变电所<e1>宜采用<e2>有载调压主变压器<e2>。
+TotalSentence实体:
+e1:ec3,e2:ec5
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:15.2.22 直流牵引供电设备应设置框架保护。
+TotalSentence:15.2.22 <e1>直流牵引供电设备<e1>应设置<e2>框架保护<e2>。
+TotalSentence实体:
+e1:ec5,e2:ec9
+TotalSentence关系:
+rc4(e1,e2)
+
+Source:15.3.14 接触轨断轨处应设端部弯头。
+TotalSentence:15.3.14 <e1>接触轨断轨处<e1>应设<e2>端部弯头<e2>。
+TotalSentence实体:
+e1:ec17,e2:ec5
+TotalSentence关系:
+rc4(e1,e2)
+
+Source:15.3.26 接触网应满足限界要求。车辆基地内架空接触网应设置限界门。
+TotalSentence:15.3.26 <e1>接触网<e1>应满足<e2>限界要求<e2>。<e3>车辆基地<e3>内<e4>架空接触网<e4应设置<e5>限界门<e5>。
+TotalSentence实体:
+e1:ec8,e2:ec7,e3:ec1,e4:ec8,e5:ec5
+TotalSentence关系:
+rc5(e1,e2),rc10(e3,e4),rc4(e4,e5)
+
+Source:15.6.1 地铁供电系统应设置电力监控系统。其系统构成、监控对象、功能要求，应根据供电系统的特点、运营要求、通道条件确定。
+SubSentence:<e1>系统构成<e1>、<e2>监控对象<e2>、<e3>功能要求<e3>，应根据<e4>供电系统<e4>的<e5>特点<e5>确定。
+SubSentence:<e1>系统构成<e1>、<e2>监控对象<e2>、<e3>功能要求<e3>，应根据<e4>供电系统<e4>的<e5>运营要求<e5>确定。
+SubSentence:<e1>系统构成<e1>、<e2>监控对象<e2>、<e3>功能要求<e3>，应根据<e4>供电系统<e4>的<e5>通道条件<e5>确定。
+TotalSentence:15.6.1 <e1>地铁供电系统<e1>应设置<e2>电力监控系统<e2>。其<e3>系统构成<e3>、<e4>监控对象<e4>、<e5>功能要求<e5>，应根据<e6>供电系统<e6>的<e7>特点<e7>、<e8>运营要求<e8>、<e9>通道条件<e9>确定。
+TotalSentence实体:
+e1:ec6,e2:ec6,e3:ec11,e4:ec11,e5:ec7,e6:ec6,e7:ec15,e8:ec7,e9:ec7
+TotalSentence关系:
+rc4(e1,e2),rc3(e6,e7),rc3(e6,e8),rc3(e6,e9),rc5(e3,e7),rc5(e3,e8),rc5(e3,e9),rc5(e4,e7),rc5(e4,e8),rc5(e5,e9),rc5(e5,e7),rc5(e6,e8),rc5(e7,e9)
+
+Source:15.7.14配电变压器低压侧中性点应直接接地。
+TotalSentence:15.7.14 <e1>配电变压器<e1><e2>低压侧中性点<e2>应直接<e3>接地<e3>。
+TotalSentence实体:
+e1:ec5,e2:ec17,e3:
+TotalSentence关系:
+rc3(e1,e2)
+
+Source:16.4.5 公务电话系统宜设置计费管理系统。      
+TotalSentence:16.4.5 <e1>公务电话系统<e1>宜设置<e2>计费管理系统<e2>。
+TotalSentence实体:
+e1:ec6,e2:ec6
+TotalSentence关系:
+rc4(e1,e2)
+
+Source:16.6.7 图像数字化编解码技术应采用标准通用的数字编码格式。
+TotalSentence:16.6.7 <e1>图像数字化编解码技术<e1>应采用标准通用的<e2>数字编码格式<e2>。
+TotalSentence实体:
+e1:ec6,e2:ec11
+TotalSentence关系:
+rc7(e1,e2)
+
+
+Source:16.9.5 办公自动化系统应设置完善的网络安全措施。
+TotalSentence:16.9.5 <e1>办公自动化系统<e1>应设置完善的<e2>网络安全措施<e2>。
+TotalSentence实体:
+e1:ec6,e2:ec6
+TotalSentence关系:
+rc4(e1,e2)
+
+Source:16.10.9 室外综合接地体电阻值不应大于1Ω。
+TotalSentence:16.10.9 <e1>室外综合接地体<e1><e2>电阻值<e2>不应大于<e3>1Ω<e3>。
+TotalSentence实体:
+e1:ec8,e2:ec15,e3:ec15
+TotalSentence关系:
+rc8(e1,e2)
+
+Source:16.11.1 专用通信系统宜设置集中告警系统。
+TotalSentence:16.11.1 <e1>专用通信系统<e1>宜设置<e2>集中告警系统<e2>。
+TotalSentence实体:
+e1:ec6,e2:ec6
+TotalSentence关系:
+rc4(e1,e2)
+
+Source:16.14.4 地铁通信设备机房不应与电力变电所相邻。 
+TotalSentence:16.14.4 <e1>地铁通信设备机房<e1>不应与<e2>电力变电所<e2>相邻。
+TotalSentence实体:
+e1:ec1,e2:ec1
+TotalSentence关系:
+rc10(e1,e2)
+
+Source:17.1.6 双线区段宜按双方向运行设计；单线区段应按双方向运行设计。
+TotalSentence:17.1.6 <e1>双线区段<e1>宜按<e2>双方向运行设计<e2>；<e3>单线区段<e3>应按<e2>双方向运行设计<e2>。
+TotalSentence实体:
+e1:ec4,e2:ec7
+TotalSentence关系:
+rc5(e1,e2),rc5(e3,e2)
+
+Source:17.1.7 信号系统应具有电磁兼容性。 
+TotalSentence:17.1.7 <e1>信号系统<e1>应具有<e2>电磁兼容性<e2>。
+TotalSentence实体:
+e1:ec6,e2:ec15
+TotalSentence关系:
+rc8(e1,e2)
+
+Source:17.4.4 地面ATP计算机设备应采用冗余结构。
+TotalSentence:17.4.4 <e1>地面ATP计算机设备<e1>应采用<e2>冗余结构<e2>。
+TotalSentence实体:
+e1:ec13,e2:ec11
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:17.4.5 ATP系统站间通道，应采用独立的冗余通道。 
+TotalSentence:17.4.5 <e1>ATP系统站间通道<e1>，应采用<e2>独立的冗余通道<e2>。
+TotalSentence实体:
+e1:ec3,e2:ec3
+TotalSentence关系:
+rc7(e1,e2)
+
+Source:18.6.2 自动售检票系统车站终端设备电源箱馈出回路宜带漏电保护。   
+TotalSentence:18.6.2 <e1>自动售检票系统<e1><e2>车站终端设备电源箱<e2><e3>馈出回路<e3>宜带<e4>漏电保护<e4>。
+TotalSentence实体:
+e1:ec6,e2:ec5,e3:ec11,e4:ec9
+TotalSentence关系:
+rc3(e1,e2),rc3(e2,e3),rc8(e3,e4)
+
+Source:20.6.2 系统平均无故障时间(MTBF)不应小于10，000h。
+TotalSentence:20.6.2 <e1>系统平均无故障时间(MTBF)<e1>不应小于<e2>10，000h<e2>。
+TotalSentence实体:
+e1:ec15,e2:ec15
+TotalSentence关系:
+rc8(e1,e2)
+
+共24条  2020/2/19
+
+Source:15.1.1 供电应安全、可靠、节能、环保和经济适用。
+SubSentence:<e1>供电<e1>应<e2>安全<e2>。
+SubSentence:<e1>供电<e1>应<e2>可靠<e2>。
+SubSentence:<e1>供电<e1>应<e2>节能<e2>。
+SubSentence:<e1>供电<e1>应<e2>环保<e2>。
+SubSentence:<e1>供电<e1>应<e2>经济适用<e2>。
+TotalSentence:<e1>供电<e1>应<e2>安全<e2>、<e3>可靠<e3>、<e4>节能<e4>、<e5>环保<e5>和<e6>经济适用<e6>。
+TotalSentence实体:
+e1:ec10,e2:ec16,e3:ec16,e4:ec16,e5:ec16,e6:ec16
+TotalSentence关系:
+rc5(e1,e2),rc5(e1,e3),rc5(e1,e4),rc5(e1,e5),rc5(e1,e6)
+
+Source:15.3.5 牵引变电所直流快速断路器至接触网间应设置电动隔离开关。    
+TotalSentence:15.3.5 <e1>牵引变电所<e1><e2>直流快速断路器<e2>至<e3>接触网<e3><e4>间<e4>应设置<e5>电动隔离开关<e5>。
+TotalSentence实体:
+e1:ec1,e2:ec5,e3:ec8,e4:ec17,e5:ec5
+TotalSentence关系:
+rc3(e1,e2),rc10(e2,e3),rc10(e2,e4),rc10(e3,e4),rc4(e4,e5)
+
+Source:15.1.13 为变电所供电的两个电源可来自上级不同的变电所，也可来自上级同一变电所的不同母线。
+TotalSentence:15.1.13为<e1>变电所<e1><e2>供电<e2>的<e3>两个<e3><e4>电源<e4>可来自<e5>上级不同<e5>的<e6>变电所<e6>，也可来自<e7>上级同一<e7><e8>变电所<e8>的<e9>不同母线<e9>。      
+实体：e1:ec1,e2:ec10,e3:ec19,e4:ec6,e5:ec17,e6:ec1,e7:ec17,e8:ec1,e9:ec5
+TotalSentence关系:
+rc12(e2,e1),rc11(e2,e4),rc2(e3,e4),rc2(e5,e6),rc11(e4,e6),rc2(e7,e8),rc3(e8,e10),rc11(e4,e10)
+
+Source:15.1.20 变电所一次接线应安全、可靠、简单。
+SubSentence:<e1>变电所<e1><e2>一次<e2><e3>接线<e3>应<e4>安全<e4>。
+SubSentence:<e1>变电所<e1><e2>一次<e2><e3>接线<e3>应<e4>可靠<e4>。
+SubSentence:<e1>变电所<e1><e2>一次<e2><e3>接线<e3>应<e4>简单<e4>。
+TotalSentence:15.1.20 <e1>变电所<e1><e2>一次<e2><e3>接线<e3>应<e4>安全<e4>、<e5>可靠<e5>、<e6>简单<e6>。
+TotalSentenceTotalSentence实体:
+e1:ec1,e2:ec19,e3:ec10,e4:ec16,e5:ec16,e6:ec16
+TotalSentence关系:
+rc15(e1,e3),rc2(e2,e3),rc5(e3,e4),rc5(e3,e5),rc5(e3,e6)
+
+Source:15.1.27 在车辆基地内应设置供电车间，在正线宜设置供电工区
+TotalSentence:15.1.27 在<e1>车辆基地内<e1>应设置<e2>供电车间<e2>，在<e3>正线<e3>宜设置<e4>供电工区<e4>。
+TotalSentence实体:
+e1:ec17,e2:ec3,e3:ec3,e4:ec3
+TotalSentence关系:
+rc4(e1,e2),rc4(e3,e4)
+
+Source:15.2.23 直流牵引馈线开关应具有在线检测的自动重合闸功能。
+TotalSentence:15.2.23 <e1>直流牵引馈线<e1><e2>开关<e2>应具有<e3>在线检测<e3>的<e4>自动重合闸功能<e4>。
+TotalSentence实体:
+e1:ec5,e2:ec5,e3:ec10,e4:ec10
+TotalSentence关系:
+rc2(e1,e2),rc3(e4,e3),rc8(e2,e4)
+
+Source:15.2.28 变电所设计应满足电力监控系统的要求。
+TotalSentence:15.2.28 <e1>变电所设计<e1>应满足<e2>电力监控系统<e2>的<e3>要求<e3>。
+TotalSentence实体:
+e1:ec7,e2:ec6,e3:ec7
+TotalSentence关系:
+rc5(e1,e3),rc3(e2,e3)
+
+Source:15.3.1 牵引网应由接触网与回流网构成。
+SubSentence:15.3.1 牵引网应由接触网构成。
+SubSentence:15.3.1 牵引网应由回流网构成。
+TotalSentence:15.3.1 <e1>牵引网<e1>应由<e2>接触网<e2>与<e3>回流网<e3>构成。
+TotalSentence实体:
+e1:ec8,e2:ec8,e3:ec8
+TotalSentence关系:
+rc1(e1,e2),rc1(e1,e3)
+
+Source:15.3.29 避雷器与火花间隙的冲击接地电阻不应大于10Ω。
+TotalSentence:15.3.29 <e1>避雷器<e1>与<e2>火花<e2><e3>间隙<e3>的<e4>冲击接地电阻<e4>不应大于<e5>10Ω<e5>。
+TotalSentence实体:
+e1:ec5,e2:ec11,e3:ec4,e4:ec11,e5:ec19
+TotalSentence关系:
+rc3(e3,e4),rc9(e4,e5),rc10(e1,e3),rc10(e2,e3)            
+
+Source:15.4.4 中压电缆的中间接头不应设在车站站台板下。
+TotalSentence:15.4.4 <e1>中压电缆<e1>的<e2>中间接头<e2>不应设在<e3>车站站台板<e3>下。
+TotalSentence实体:
+e1:ec5,e2:ec5,e3:ec3
+TotalSentence关系:
+rc3(e1,e2),rc10(e2,e3)
+
+Source:15.7.2 对杂散电流及防护对象应进行自动监测。
+TotalSentence:15.7.2 对<e1>杂散电流<e1>及<e2>防护对象<e2>应进行<e3>自动监测<e3>。
+TotalSentence实体:
+e1:ec11,e2:ec11,e3:ec10
+TotalSentence关系:
+rc12(e3,e1),rc12(e3,e2)
+
+Source:16.2.15 干线光缆的光纤应采用单模光纤。
+TotalSentence:16.2.15 <e1>干线光缆<e1>的<e2>光纤<e2>应采用<e3>单模光纤<e3>。
+TotalSentence实体:
+e1:ec5,e2:ec5,e3:ec5
+TotalSentence关系:
+rc3(e1,e2),rc7(e2,e3)
+
+Source:15.3.15 接触轨应设防护罩，其电气性能与物理性能应满足技术要求。
+SubSentence:<e1>防护罩<e1>的<e2>电气性能<e2>应满足<e3>技术要求<e3>。
+SubSentence:<e1>防护罩<e1>的<e2>物理性能<e2>应满足<e3>技术要求<e3>。
+TotalSentence:15.3.15 <e1>接触轨<e1>应设<e2>防护罩<e2>，其<e3>电气性能<e3>与<e4>物理性能<e4>应满足<e5>技术要求<e5>。
+TotalSentence实体:
+e1:ec5,e2:ec5,e3:ec15,e4:ec15,e5:ec7
+TotalSentence关系:
+rc4(e1,e2),rc3(e2,e3),rc3(e2,e4),rc5(e3,e5),rc5(e4,e5)
+
+Source:15.3.31 对易受其他机动车辆损伤的支柱，应采取防护措施。
+TotalSentence:15.3.31 对易受<e1>其他机动车辆<e1><e2>损伤<e2>的<e3>支柱<e3>，应采取<e4>防护措施<e4>。
+TotalSentence实体：
+e1:ec5,e2:ec10,e3:ec5,e4:ec6
+TotalSentence关系:
+rc11(e2,e1),rc12(e2,e3),rc7(e3,e4)
+
+Source:15.3.32 接触网安装形式应满足人防门、防淹门等使用要求。
+SubSentence:<e1>接触网安装形式<e1>应满足<e2>人防门<e2><e3>使用要求<e3>。
+SubSentence:<e1>接触网安装形式<e1>应满足<e2>防淹门<e2><e3>使用要求<e3>。
+TotalSentence:15.3.32 <e1>接触网安装形式<e1>应满足<e2>人防门<e2>、<e3>防淹门<e3>等<e4>使用要求<e4>。
+TotalSentence实体:
+e1:ec15,e2:ec5,e3:ec5,e4:ec7
+TotalSentence关系:
+rc5(e1,e4),rc3(e2,e4),rc3(e3,e4)
+
+Source:15.4.12 电缆在房间内敷设时，宜沿电缆桥架敷设。
+TotalSentence:15.4.12 <e1>电缆<e1>在<e2>房间<e2>内<e3>敷设<e3>时，宜沿<e4>电缆桥架<e4><e5>敷设<e5>。
+TotalSentence实体:
+e1:ec5,e2:ec3,e3:ec10,e4:ec8,e5:ec10
+TotalSentence关系:
+rc10(e1,e2),rc12(e3,e1),rc10(e1,e4),rc12(e5,e1)
+
+Source:15.5.10 车辆基地的场区和高架桥应采取防雷措施。
+TotalSentence:15.5.10 <e1>车辆基地<e1>的<e2>场区<e2>和<e3>高架桥<e3>应采取<e4>防雷措施<e4>。
+TotalSentence实体:
+e1:ec3,e2:ec3,e3:ec8,e4:ec6
+TotalSentence关系:
+rc3(e1,e2),rc7(e2,e4),rc7(e3,e4)
+
+41条
+
+Source:15.6.14 主站设备应按双冗余系统的原则进行配置。
+TotalSentence:15.6.14 <e1>主站设备<e1>应按<e2>双冗余系统<e2>的<e3>原则<e3>进行<e4>配置<e4>。
+TotalSentence实体:
+e1:ec5,e2:ec6,e3:ec7,e4:ec10
+TotalSentence关系:
+rc5(e1,e3),rc3(e2,e3),rc12(e4,e1)
+
+Source:15.6.16 子站设备的通信规约应对用户完全开放。
+TotalSentence:15.6.16 <e1>子站设备<e1>的<e2>通信规约<e2>应对<e3>用户<e3>完全<e4>开放<e4>。
+TotalSentence实体:
+e1:ec5,e2:ec7,e3:ec12,e4:ec10
+TotalSentence关系:
+rc3(e1,e2),rc11(e4,e2),rc12(e4,e3)
+
+Source:15.6.7 电力监控系统宜采用通信系统的标准时钟信号。
+TotalSentence:15.6.7 <e1>电力监控系统<e1>宜采用<e2>通信系统<e2>的<e3>标准时钟信号<e3>。
+TotalSentence实体:
+e1:ec6,e2:ec6,e3:ec6
+TotalSentence关系:
+rc7(e1,e3),rc3(e2,e3)
+
+Source:15.6.17 远动数据通道宜采用通信系统的数据通道。
+TotalSentence:15.6.17 <e1>远动数据通道<e1>宜采用<e2>通信系统<e2>的<e3>数据通道<e3>。
+TotalSentence实体:
+e1:ec6,e2:ec6,e3:ec6
+TotalSentence关系:
+rc7(e1,e3),rc3(e2,e3)
+
+Source:15.7.4 对有砟道床应采取加强杂散电流腐蚀防护的措施。
+TotalSentence:15.7.4 对<e1>有砟道床<e1>应采取<e2>加强<e2><e3>杂散电流<e3><e4>腐蚀防护<e4>的<e5>措施<e5>。
+TotalSentence实体:
+e1:ec8,e2:ec10,e3:ec11,e4:ec10,e5:ec5
+TotalSentence关系:
+rc7(e1,e5),rc12(e2,e4),rc3(e3,e4),rc1(e4,e5)
+
+
+

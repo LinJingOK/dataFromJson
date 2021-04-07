@@ -1,0 +1,877 @@
+{
+    "content": "@22.4.1 乘客信息系统宜设置与时钟系统、信号系统、综合监控系统等地铁内部专业接口，并宜设置与数字电视、无线电视、有线电视等外部信息源接口。@22.4.2 乘客信息系统与时钟系统接口，接收时钟信息用于本系统的时钟应同步，并应在终端显示设备上为乘客提供标准时间信息。时间信息显示方式可为数字式或模拟指针式。@22.4.3 乘客信息系统与信号系统接口，应具备接收ATS或综合监控系统信息提供列车到站时间，以及列车调停、折返、回库等信息功能中向乘客提供列车到站时间信息。@22.4.4 乘客信息系统与综合监控系统接口，应能接受综合监控信息在指定的时间、地点、区域显示，并应将本系统设备工作状态和故障报警信息上传给综合监控系统。@22.4.5 乘客信息系统与外部信息源接口，应能接收外部信息源的信号，并应向乘客提供全面的、实时的信息。\n",
+    "labelCategories": [
+        {
+            "id": 0,
+            "text": "建筑",
+            "color": "#eac0a2",
+            "borderColor": "#a38671"
+        },
+        {
+            "id": 1,
+            "text": "空间",
+            "color": "#619dff",
+            "borderColor": "#436db2"
+        },
+        {
+            "id": 2,
+            "text": "物理施工元素",
+            "color": "#9d61ff",
+            "borderColor": "#6d43b2"
+        },
+        {
+            "id": 3,
+            "text": "抽象施工元素",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 4,
+            "text": "文件工作成果",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 5,
+            "text": "物理工作成果",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 6,
+            "text": "进程工作成果",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 7,
+            "text": "行为(机器行为、人类行为)",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 8,
+            "text": "专有名词",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 9,
+            "text": "组织角色",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 10,
+            "text": "工具",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 11,
+            "text": "材质",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 12,
+            "text": "属性名",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 13,
+            "text": "效用(充当形容词)",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 14,
+            "text": "空间位置",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 15,
+            "text": "环境条件",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 16,
+            "text": "属性值",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        },
+        {
+            "id": 17,
+            "text": "文件名",
+            "color": "#ff9d61",
+            "borderColor": "#b26d43"
+        }
+    ],
+    "labels": [
+        {
+            "id": 0,
+            "categoryId": 5,
+            "startIndex": 8,
+            "endIndex": 14
+        },
+        {
+            "id": 1,
+            "categoryId": 3,
+            "startIndex": 18,
+            "endIndex": 22
+        },
+        {
+            "id": 2,
+            "categoryId": 3,
+            "startIndex": 23,
+            "endIndex": 27
+        },
+        {
+            "id": 3,
+            "categoryId": 3,
+            "startIndex": 28,
+            "endIndex": 34
+        },
+        {
+            "id": 4,
+            "categoryId": 14,
+            "startIndex": 35,
+            "endIndex": 39
+        },
+        {
+            "id": 5,
+            "categoryId": 8,
+            "startIndex": 39,
+            "endIndex": 43
+        },
+        {
+            "id": 6,
+            "categoryId": 2,
+            "startIndex": 49,
+            "endIndex": 53
+        },
+        {
+            "id": 7,
+            "categoryId": 2,
+            "startIndex": 54,
+            "endIndex": 58
+        },
+        {
+            "id": 8,
+            "categoryId": 2,
+            "startIndex": 59,
+            "endIndex": 63
+        },
+        {
+            "id": 9,
+            "categoryId": 8,
+            "startIndex": 64,
+            "endIndex": 71
+        },
+        {
+            "id": 10,
+            "categoryId": 5,
+            "startIndex": 80,
+            "endIndex": 86
+        },
+        {
+            "id": 11,
+            "categoryId": 8,
+            "startIndex": 87,
+            "endIndex": 93
+        },
+        {
+            "id": 12,
+            "categoryId": 7,
+            "startIndex": 94,
+            "endIndex": 96
+        },
+        {
+            "id": 13,
+            "categoryId": 8,
+            "startIndex": 96,
+            "endIndex": 100
+        },
+        {
+            "id": 14,
+            "categoryId": 8,
+            "startIndex": 102,
+            "endIndex": 108
+        },
+        {
+            "id": 15,
+            "categoryId": 7,
+            "startIndex": 109,
+            "endIndex": 111
+        },
+        {
+            "id": 16,
+            "categoryId": 2,
+            "startIndex": 115,
+            "endIndex": 121
+        },
+        {
+            "id": 17,
+            "categoryId": 9,
+            "startIndex": 123,
+            "endIndex": 125
+        },
+        {
+            "id": 18,
+            "categoryId": 7,
+            "startIndex": 125,
+            "endIndex": 127
+        },
+        {
+            "id": 19,
+            "categoryId": 8,
+            "startIndex": 127,
+            "endIndex": 133
+        },
+        {
+            "id": 20,
+            "categoryId": 12,
+            "startIndex": 134,
+            "endIndex": 142
+        },
+        {
+            "id": 21,
+            "categoryId": 16,
+            "startIndex": 144,
+            "endIndex": 147
+        },
+        {
+            "id": 22,
+            "categoryId": 16,
+            "startIndex": 148,
+            "endIndex": 153
+        },
+        {
+            "id": 23,
+            "categoryId": 5,
+            "startIndex": 162,
+            "endIndex": 168
+        },
+        {
+            "id": 24,
+            "categoryId": 8,
+            "startIndex": 169,
+            "endIndex": 175
+        },
+        {
+            "id": 25,
+            "categoryId": 7,
+            "startIndex": 179,
+            "endIndex": 184
+        },
+        {
+            "id": 26,
+            "categoryId": 8,
+            "startIndex": 185,
+            "endIndex": 193
+        },
+        {
+            "id": 27,
+            "categoryId": 7,
+            "startIndex": 193,
+            "endIndex": 195
+        },
+        {
+            "id": 28,
+            "categoryId": 8,
+            "startIndex": 195,
+            "endIndex": 201
+        },
+        {
+            "id": 29,
+            "categoryId": 8,
+            "startIndex": 204,
+            "endIndex": 206
+        },
+        {
+            "id": 30,
+            "categoryId": 7,
+            "startIndex": 206,
+            "endIndex": 208
+        },
+        {
+            "id": 31,
+            "categoryId": 7,
+            "startIndex": 209,
+            "endIndex": 211
+        },
+        {
+            "id": 32,
+            "categoryId": 7,
+            "startIndex": 212,
+            "endIndex": 214
+        },
+        {
+            "id": 33,
+            "categoryId": 8,
+            "startIndex": 215,
+            "endIndex": 219
+        },
+        {
+            "id": 34,
+            "categoryId": 9,
+            "startIndex": 221,
+            "endIndex": 223
+        },
+        {
+            "id": 35,
+            "categoryId": 7,
+            "startIndex": 223,
+            "endIndex": 225
+        },
+        {
+            "id": 36,
+            "categoryId": 8,
+            "startIndex": 225,
+            "endIndex": 233
+        },
+        {
+            "id": 37,
+            "categoryId": 5,
+            "startIndex": 242,
+            "endIndex": 248
+        },
+        {
+            "id": 38,
+            "categoryId": 8,
+            "startIndex": 255,
+            "endIndex": 257
+        },
+        {
+            "id": 39,
+            "categoryId": 5,
+            "startIndex": 249,
+            "endIndex": 255
+        },
+        {
+            "id": 40,
+            "categoryId": 8,
+            "startIndex": 262,
+            "endIndex": 268
+        },
+        {
+            "id": 41,
+            "categoryId": 13,
+            "startIndex": 269,
+            "endIndex": 272
+        },
+        {
+            "id": 42,
+            "categoryId": 8,
+            "startIndex": 272,
+            "endIndex": 274
+        },
+        {
+            "id": 43,
+            "categoryId": 8,
+            "startIndex": 275,
+            "endIndex": 277
+        },
+        {
+            "id": 44,
+            "categoryId": 8,
+            "startIndex": 278,
+            "endIndex": 280
+        },
+        {
+            "id": 45,
+            "categoryId": 7,
+            "startIndex": 280,
+            "endIndex": 282
+        },
+        {
+            "id": 46,
+            "categoryId": 7,
+            "startIndex": 260,
+            "endIndex": 262
+        },
+        {
+            "id": 47,
+            "categoryId": 8,
+            "startIndex": 286,
+            "endIndex": 291
+        },
+        {
+            "id": 48,
+            "categoryId": 8,
+            "startIndex": 291,
+            "endIndex": 295
+        },
+        {
+            "id": 49,
+            "categoryId": 8,
+            "startIndex": 296,
+            "endIndex": 302
+        },
+        {
+            "id": 50,
+            "categoryId": 5,
+            "startIndex": 305,
+            "endIndex": 311
+        },
+        {
+            "id": 53,
+            "categoryId": 7,
+            "startIndex": 337,
+            "endIndex": 339
+        },
+        {
+            "id": 54,
+            "categoryId": 8,
+            "startIndex": 339,
+            "endIndex": 347
+        },
+        {
+            "id": 55,
+            "categoryId": 9,
+            "startIndex": 351,
+            "endIndex": 353
+        },
+        {
+            "id": 56,
+            "categoryId": 7,
+            "startIndex": 353,
+            "endIndex": 355
+        },
+        {
+            "id": 57,
+            "categoryId": 13,
+            "startIndex": 355,
+            "endIndex": 358
+        },
+        {
+            "id": 58,
+            "categoryId": 13,
+            "startIndex": 359,
+            "endIndex": 362
+        },
+        {
+            "id": 59,
+            "categoryId": 8,
+            "startIndex": 362,
+            "endIndex": 364
+        },
+        {
+            "id": 60,
+            "categoryId": 8,
+            "startIndex": 320,
+            "endIndex": 334
+        }
+    ],
+    "connectionCategories": [
+        {
+            "id": 0,
+            "text": "1.集合(X,Y)"
+        },
+        {
+            "id": 1,
+            "text": "2.修饰限定(X,Y)"
+        },
+        {
+            "id": 2,
+            "text": "3.领属(X,Y)"
+        },
+        {
+            "id": 3,
+            "text": "4.设置(X,Y)"
+        },
+        {
+            "id": 4,
+            "text": "5.满足(X,Y)"
+        },
+        {
+            "id": 5,
+            "text": "6.为(X,Y) "
+        },
+        {
+            "id": 6,
+            "text": "7.利用(X,Y)"
+        },
+        {
+            "id": 7,
+            "text": "8.具有(X,Y)"
+        },
+        {
+            "id": 8,
+            "text": "9.数值限定(X,Y)"
+        },
+        {
+            "id": 9,
+            "text": "10.位置(X,Y)"
+        },
+        {
+            "id": 10,
+            "text": "11.实体-起源Entity-Origin(X,Y)"
+        },
+        {
+            "id": 11,
+            "text": "12.实体-目的地Entity-Destination(X,Y)"
+        },
+        {
+            "id": 12,
+            "text": "13.其他"
+        },
+        {
+            "id": 13,
+            "text": "14.实体条件(X,Y)"
+        }
+    ],
+    "connections": [
+        {
+            "id": 0,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 1
+        },
+        {
+            "id": 1,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 2
+        },
+        {
+            "id": 2,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 3
+        },
+        {
+            "id": 3,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 4
+        },
+        {
+            "id": 4,
+            "categoryId": 1,
+            "fromId": 1,
+            "toId": 5
+        },
+        {
+            "id": 5,
+            "categoryId": 1,
+            "fromId": 2,
+            "toId": 5
+        },
+        {
+            "id": 6,
+            "categoryId": 1,
+            "fromId": 3,
+            "toId": 5
+        },
+        {
+            "id": 7,
+            "categoryId": 1,
+            "fromId": 4,
+            "toId": 5
+        },
+        {
+            "id": 8,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 6
+        },
+        {
+            "id": 9,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 7
+        },
+        {
+            "id": 10,
+            "categoryId": 3,
+            "fromId": 0,
+            "toId": 8
+        },
+        {
+            "id": 11,
+            "categoryId": 1,
+            "fromId": 6,
+            "toId": 9
+        },
+        {
+            "id": 12,
+            "categoryId": 1,
+            "fromId": 7,
+            "toId": 9
+        },
+        {
+            "id": 13,
+            "categoryId": 1,
+            "fromId": 8,
+            "toId": 9
+        },
+        {
+            "id": 14,
+            "categoryId": 10,
+            "fromId": 10,
+            "toId": 12
+        },
+        {
+            "id": 15,
+            "categoryId": 11,
+            "fromId": 12,
+            "toId": 13
+        },
+        {
+            "id": 16,
+            "categoryId": 10,
+            "fromId": 11,
+            "toId": 12
+        },
+        {
+            "id": 17,
+            "categoryId": 10,
+            "fromId": 13,
+            "toId": 15
+        },
+        {
+            "id": 18,
+            "categoryId": 11,
+            "fromId": 15,
+            "toId": 14
+        },
+        {
+            "id": 19,
+            "categoryId": 10,
+            "fromId": 10,
+            "toId": 18
+        },
+        {
+            "id": 20,
+            "categoryId": 11,
+            "fromId": 18,
+            "toId": 19
+        },
+        {
+            "id": 21,
+            "categoryId": 11,
+            "fromId": 19,
+            "toId": 17
+        },
+        {
+            "id": 22,
+            "categoryId": 13,
+            "fromId": 16,
+            "toId": 18
+        },
+        {
+            "id": 23,
+            "categoryId": 2,
+            "fromId": 10,
+            "toId": 20
+        },
+        {
+            "id": 24,
+            "categoryId": 0,
+            "fromId": 20,
+            "toId": 21
+        },
+        {
+            "id": 25,
+            "categoryId": 0,
+            "fromId": 20,
+            "toId": 22
+        },
+        {
+            "id": 26,
+            "categoryId": 7,
+            "fromId": 23,
+            "toId": 25
+        },
+        {
+            "id": 27,
+            "categoryId": 7,
+            "fromId": 24,
+            "toId": 25
+        },
+        {
+            "id": 28,
+            "categoryId": 2,
+            "fromId": 23,
+            "toId": 26
+        },
+        {
+            "id": 29,
+            "categoryId": 2,
+            "fromId": 24,
+            "toId": 26
+        },
+        {
+            "id": 30,
+            "categoryId": 10,
+            "fromId": 26,
+            "toId": 27
+        },
+        {
+            "id": 31,
+            "categoryId": 11,
+            "fromId": 27,
+            "toId": 28
+        },
+        {
+            "id": 32,
+            "categoryId": 2,
+            "fromId": 29,
+            "toId": 30
+        },
+        {
+            "id": 33,
+            "categoryId": 2,
+            "fromId": 29,
+            "toId": 31
+        },
+        {
+            "id": 34,
+            "categoryId": 2,
+            "fromId": 29,
+            "toId": 32
+        },
+        {
+            "id": 35,
+            "categoryId": 1,
+            "fromId": 30,
+            "toId": 33
+        },
+        {
+            "id": 36,
+            "categoryId": 1,
+            "fromId": 31,
+            "toId": 33
+        },
+        {
+            "id": 37,
+            "categoryId": 1,
+            "fromId": 32,
+            "toId": 33
+        },
+        {
+            "id": 38,
+            "categoryId": 10,
+            "fromId": 33,
+            "toId": 35
+        },
+        {
+            "id": 39,
+            "categoryId": 11,
+            "fromId": 35,
+            "toId": 36
+        },
+        {
+            "id": 40,
+            "categoryId": 11,
+            "fromId": 36,
+            "toId": 34
+        },
+        {
+            "id": 41,
+            "categoryId": 7,
+            "fromId": 23,
+            "toId": 29
+        },
+        {
+            "id": 42,
+            "categoryId": 2,
+            "fromId": 37,
+            "toId": 38
+        },
+        {
+            "id": 43,
+            "categoryId": 2,
+            "fromId": 39,
+            "toId": 38
+        },
+        {
+            "id": 44,
+            "categoryId": 10,
+            "fromId": 38,
+            "toId": 46
+        },
+        {
+            "id": 45,
+            "categoryId": 11,
+            "fromId": 46,
+            "toId": 40
+        },
+        {
+            "id": 46,
+            "categoryId": 10,
+            "fromId": 46,
+            "toId": 41
+        },
+        {
+            "id": 47,
+            "categoryId": 1,
+            "fromId": 41,
+            "toId": 42
+        },
+        {
+            "id": 48,
+            "categoryId": 1,
+            "fromId": 41,
+            "toId": 43
+        },
+        {
+            "id": 49,
+            "categoryId": 1,
+            "fromId": 41,
+            "toId": 44
+        },
+        {
+            "id": 50,
+            "categoryId": 10,
+            "fromId": 60,
+            "toId": 53
+        },
+        {
+            "id": 51,
+            "categoryId": 11,
+            "fromId": 53,
+            "toId": 54
+        },
+        {
+            "id": 52,
+            "categoryId": 10,
+            "fromId": 60,
+            "toId": 56
+        },
+        {
+            "id": 53,
+            "categoryId": 11,
+            "fromId": 56,
+            "toId": 57
+        },
+        {
+            "id": 54,
+            "categoryId": 11,
+            "fromId": 56,
+            "toId": 58
+        },
+        {
+            "id": 55,
+            "categoryId": 1,
+            "fromId": 57,
+            "toId": 59
+        },
+        {
+            "id": 56,
+            "categoryId": 1,
+            "fromId": 58,
+            "toId": 59
+        },
+        {
+            "id": 57,
+            "categoryId": 13,
+            "fromId": 56,
+            "toId": 55
+        }
+    ]
+}

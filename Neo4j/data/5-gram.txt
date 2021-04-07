@@ -1,0 +1,26 @@
+0: Tuples {f_node_name: "给水与排水金属管道", f_node_label: "物理施工元素", relation_name: "7.利用(X,Y)", l_node_name: "车辆基地室外消火栓", l_node_label: "工具"}
+1: Tuples {f_node_name: "车辆基地", f_node_label: "空间", relation_name: "3.领属(X,Y)", l_node_name: "室外消火栓", l_node_label: "工具"}
+2: Tuples {f_node_name: "车辆基地内轨道", f_node_label: "建筑", relation_name: "3.领属(X,Y)", l_node_name: "间距", l_node_label: "属性名"}
+3: Tuples {f_node_name: "间距", f_node_label: "属性名", relation_name: "4.设置(X,Y)", l_node_name: "120m", l_node_label: "属性值"}
+4: Tuples {f_node_name: "洒水栓", f_node_label: "工具", relation_name: "3.领属(X,Y)", l_node_name: "间距", l_node_label: "属性名"}
+5: Tuples {f_node_name: "间距", f_node_label: "属性名", relation_name: "4.设置(X,Y)", l_node_name: "80m", l_node_label: "属性值"}
+6: Tuples {f_node_name: "室外给排水", f_node_label: "抽象施工元素", relation_name: "14.实体条件(X,Y)", l_node_name: "车辆基地停车列检库", l_node_label: "空间"}
+7: Tuples {f_node_name: "消防管道", f_node_label: "物理施工元素", relation_name: "14.实体条件(X,Y)", l_node_name: "车辆基地停车列检库", l_node_label: "空间"}
+8: Tuples {f_node_name: "室外给排水", f_node_label: "抽象施工元素", relation_name: "4.设置(X,Y)", l_node_name: "护套管", l_node_label: "物理施工元素"}
+9: Tuples {f_node_name: "室外给排水", f_node_label: "抽象施工元素", relation_name: "4.设置(X,Y)", l_node_name: "综合管沟", l_node_label: "物理施工元素"}
+10: Tuples {f_node_name: "消防管道", f_node_label: "物理施工元素", relation_name: "4.设置(X,Y)", l_node_name: "护套管", l_node_label: "物理施工元素"}
+11: Tuples {f_node_name: "消防管道", f_node_label: "物理施工元素", relation_name: "4.设置(X,Y)", l_node_name: "综合管沟", l_node_label: "物理施工元素"}
+12: Tuples {f_node_name: "消防管道", f_node_label: "物理施工元素", relation_name: "4.设置(X,Y)", l_node_name: "生产、生活给水设备", l_node_label: "物理施工元素"}
+13: Tuples {f_node_name: "定修库", f_node_label: "空间", relation_name: "4.设置(X,Y)", l_node_name: "生产、生活给水设备", l_node_label: "物理施工元素"}
+14: Tuples {f_node_name: "电缆沟", f_node_label: "空间", relation_name: "4.设置(X,Y)", l_node_name: "生产、生活给水设备", l_node_label: "物理施工元素"}
+15: Tuples {f_node_name: "局部低洼处", f_node_label: "空间位置", relation_name: "4.设置(X,Y)", l_node_name: "生产、生活给水设备", l_node_label: "物理施工元素"}
+16: Tuples {f_node_name: "局部低洼处", f_node_label: "空间位置", relation_name: "6.为(X,Y) ", l_node_name: "排水设施", l_node_label: "抽象施工元素"}
+17: Tuples {f_node_name: "定修库", f_node_label: "空间", relation_name: "6.为(X,Y) ", l_node_name: "排水设施", l_node_label: "抽象施工元素"}
+18: Tuples {f_node_name: "电缆沟", f_node_label: "空间", relation_name: "6.为(X,Y) ", l_node_name: "排水设施", l_node_label: "抽象施工元素"}
+19: Tuples {f_node_name: "局部低洼处", f_node_label: "空间位置", relation_name: "6.为(X,Y) ", l_node_name: "排水设施", l_node_label: "抽象施工元素"}
+20: Tuples {f_node_name: "车站控制室", f_node_label: "空间", relation_name: "8.具有(X,Y)", l_node_name: "防止杂散电流腐蚀", l_node_label: "抽象施工元素"}
+21: Tuples {f_node_name: "运行", f_node_label: "行为(机器行为、人类行为)", relation_name: "6.为(X,Y) ", l_node_name: "防止杂散电流腐蚀", l_node_label: "抽象施工元素"}
+22: Tuples {f_node_name: "手/自动", f_node_label: "行为(机器行为、人类行为)", relation_name: "6.为(X,Y) ", l_node_name: "防止杂散电流腐蚀", l_node_label: "抽象施工元素"}
+23: Tuples {f_node_name: "故障", f_node_label: "行为(机器行为、人类行为)", relation_name: "6.为(X,Y) ", l_node_name: "防止杂散电流腐蚀", l_node_label: "抽象施工元素"}
+24: Tuples {f_node_name: "状态信息", f_node_label: "属性名", relation_name: "6.为(X,Y) ", l_node_name: "防止杂散电流腐蚀", l_node_label: "抽象施工元素"}
+25: Tuples {f_node_name: "车站控制室", f_node_label: "空间", relation_name: "10.位置(X,Y)", l_node_name: "显示", l_node_label: "行为(机器行为、人类行为)"}

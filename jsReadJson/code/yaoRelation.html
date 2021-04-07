@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //构造函数创建对象entity+re  三元组形式
+
+    function entityTriple(e1, r, e2) {
+      var arr = [];
+      arr[0] = e1;
+      arr[1] = r;
+      arr[2] = e2;
+ 
+      return arr;
+    }
+
+    window.onload = function () {
+      // var url = "../data/103_1013_tagged.json" /*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+      var url = "../data/1-5data.json";
+      var request = new XMLHttpRequest();
+      request.open("get", url);/*设置请求方法与路径*/
+      request.send(null);/*不发送数据到服务器*/
+      request.onload = function () {/*XHR对象获取到返回信息后执行*/
+        if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+          var json = JSON.parse(request.responseText);
+          for(var i=0;i<json.length;i++){
+            console.log(json[i].name);
+          }
+          console.log(json);
+
+          var connections = json.connections;
+          var connectionCategories = json.connectionCategories;
+          var content = json.content;
+          var labels = json.labels;
+          var arrAll = [];
+          console.log(connections.length);
+
+          for (var i = 0; i < connections.length;i++) {
+            // console.log(i);
+            var fromId = connections[i].fromId;
+            // console.log("fromId:" + fromId);
+            var toId = connections[i].toId;
+            // console.log("toId:" + toId);
+            for (var m = 0; m < labels.length; m++) {           //erro
+              if (labels[m].id === fromId || labels[m].id === toId) {
+                console.log(labels[m].id)
+                var start1 = labels[fromId].startIndex;
+                // console.log(start1);
+                var end1 = labels[fromId].endIndex;
+                // console.log(end1);
+                var start2 = labels[toId].startIndex;
+                // console.log(fromId);
+                var end2 = labels[toId].endIndex;
+                // console.log(toId);
+                entity1 = content.substring(start1, end1);
+                // console.log(entity1);
+                entity2 = content.substring(start2, end2);
+                // console.log(entity2);
+                // console.log(entity1,entity2);
+              }
+            }
+              for (var j = 0; j < connectionCategories.length; j++) {
+                if (connections[i].categoryId == connectionCategories[j].id) {
+                  relationClass = connectionCategories[j].text;
+                  arr = entityTriple(entity1, relationClass, entity2);
+                  arrAll.push(arr);
+                }
+              }
+            
+          }
+          console.log(arrAll);
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>
